@@ -1,12 +1,27 @@
-
-
+.header .container {
+  display: flex;
+  
+}
+.address ul {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 40px;
+ 
+}
 .address a {
+
   font-weight: 400;
   letter-spacing: 0.02em;
-  color:#434455;
+  color: #434455;
 }
-.adress-link:hover,
-.adress-link:focus {
+.address-link {
+
+  
+  
+}
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 .accent {
@@ -14,15 +29,22 @@
 }
 
 .main-nav {
-  
+ margin-left: 86px;
+ margin-right: auto;
 }
 .main-nav-list {
+ 
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .main-nav-item {
 }
 .main-nav-link {
+  display: flex;
+  padding: 24px 0;
   font-style: normal;
-  font-weight:500;
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #2e2f42;
