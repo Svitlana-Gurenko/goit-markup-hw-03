@@ -8,15 +8,26 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;
   color: #2e2f42;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+
 }
 .portfolio-item {
+  width: calc((100% - 24px*2) /3);
+  background: #fff;
 }
 .portfolio-pic {
+  margin-bottom: 32px;
 }
 .portfolio-name {
+  margin-left: 16px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -24,6 +35,8 @@
   color: #2e2f42;
 }
 .portfolio-type {
+  margin-left: 16px;
+  margin-bottom: 32px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
