@@ -2,6 +2,15 @@
   padding: 100px 0;
   background: #2e2f42;
 }
+.footer-left {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 141px;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 264px;
+  gap: 16px;
+}
 .contacts-link {
   font-weight: 700;
   font-size: 18px;
