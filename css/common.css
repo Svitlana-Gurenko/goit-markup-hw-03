@@ -11,7 +11,7 @@ body {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  
   outline-offset: -2px;
 }
 h1, h2, h3, h4, h5, h6, p {
