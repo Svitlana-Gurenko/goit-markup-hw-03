@@ -30,7 +30,6 @@ button {
   cursor: pointer;
 }
 address {
-  display: flex;
   font-style: normal;
 }
 img {
