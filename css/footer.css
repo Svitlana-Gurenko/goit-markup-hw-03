@@ -5,7 +5,6 @@
 .footer-left {
   display: flex;
   align-items: flex-start;
-  margin-left: 141px;
   justify-content: flex-start;
   flex-direction: column;
   max-width: 264px;

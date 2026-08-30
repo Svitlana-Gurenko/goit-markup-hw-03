@@ -5,13 +5,12 @@ body {
   line-height: 1.5;
   letter-spacing: -0.02em;
   color: #434455;
-  background: #f4f4fd;
+  background: #fff;
 }
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  
   outline-offset: -2px;
 }
 h1, h2, h3, h4, h5, h6, p {
