@@ -1,7 +1,14 @@
 .header .container {
   display: flex;
-  
+  margin-bottom: 14px;
+  background-color: #fff;
 }
+  .header {
+width: 1440px;
+background-color: #fff;
+  }
+
+
 .address ul {
  display: flex;
  flex-direction: row;
